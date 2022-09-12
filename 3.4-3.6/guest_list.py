@@ -44,5 +44,14 @@ pop_number_3 = dream_guests.pop(2)
 print(f"Sorry, {pop_number_3}, you're un-invited.")
 pop_number_4 = dream_guests.pop(3)
 print(f"Sorry, {pop_number_4}, you're un-invited.")
-pop_number_5 = dream_guests.pop(4)
+pop_number_5 = dream_guests.pop(2)
 print(f"Sorry, {pop_number_5}, you're un-invited.")
+pop_number_6 = dream_guests.pop(2)
+print(f"Sorry, {pop_number_5}, you're un-invited.")
+
+#
+print(dream_guests)
+#
+amount_of_guests = len(dream_guests)
+print(amount_of_guests)
+print(f"In total, " + str(amount_of_guests) + " guests are still invited to dinner.")

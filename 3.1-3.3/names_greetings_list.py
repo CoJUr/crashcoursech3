@@ -14,3 +14,6 @@ print("Some day I'd like to go on a " + my_list[0])
 print(f"It's been a while since I've been on a {my_list[1]}")
 print("I'd like to drive a nicer {}.".format(my_list[2]))
 print("I'd like to take a trip on a fast {}.".format(my_list[3]))
+
+# lexicographical order comparison
+print('car' > 'train')
