@@ -12,4 +12,9 @@ numbers = list(range(1, 5))
 print(numbers)
 
 even_numbers = list(range(2, 11, 2))
+# 3rd argument is the step size
 print(even_numbers)
+
+
+
+
