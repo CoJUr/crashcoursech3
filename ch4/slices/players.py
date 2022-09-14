@@ -14,8 +14,16 @@ print(players[-4::3])
 
 # loop through a subset of a list
 players = ['charles', 'martine', 'michael', 'florence', 'eli']
+
 print("the first three players on my team are: ")
 for player in players[:3]:
     print(player.title())
 
+print("the items from the MIDDLE of my list are:")
+for player in players[1:4]:
+    print(player.title())
+
+print("the last 3 items in my list are:" )
+for player in players[-3:]:
+    print(player.title())
 

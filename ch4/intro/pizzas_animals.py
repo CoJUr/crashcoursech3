@@ -19,3 +19,16 @@ print("All of these animals are mammals and highly intelligent.")
 
 
 
+friend_pizzas = fav_pizzas[:]
+print(friend_pizzas)
+fav_pizzas.append('smokehouse')
+friend_pizzas.append('vegetarian')
+print(friend_pizzas, fav_pizzas)
+
+print("My favorite pizzas are:")
+for mine in fav_pizzas:
+    print(mine)
+
+print("My friend's favorite pizzas are:")
+for theirs in friend_pizzas:
+    print(theirs)
