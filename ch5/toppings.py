@@ -18,4 +18,17 @@ if requested_toppings:
 else:
     print("Are you sure you want a plain pizza?")
 
+# using multiple lists, checking one against another to find values in common
+print("###################")
+available_toppings = ['mushrooms', 'olives', 'green peppers',
+                      'pepperoni', 'pineapple', 'extra cheese']
+
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print(f"Adding {requested_topping}.")
+    else:
+        print(f"Sorry, we do not have {requested_topping} :(")
+
 
