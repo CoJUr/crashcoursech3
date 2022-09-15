@@ -15,7 +15,7 @@ elif age < 18:
 else:
     print("Your admission cost is $40.")
 
-# more consise way to write the above code - set the price in the
+# more concise way to write the above code - set the price in the
 # if-elif-else chain, then print once only outside the chain using the price
 age = 12
 if age < 4:
@@ -25,4 +25,6 @@ elif age < 18:
 else:
     price = 40
 print(f"Your admission cost is ${price}.")
+
+
 
