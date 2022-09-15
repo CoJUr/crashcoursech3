@@ -22,9 +22,39 @@ if age < 4:
     price = 0
 elif age < 18:
     price = 25
-else:
+elif age < 65:
     price = 40
+else:
+    price = 20
+
 print(f"Your admission cost is ${price}.")
+
+# can opt to not use an else - sometimes improves clarity and security (e.g. if
+# final specific condition to look for)
+if age < 4:
+    price = 0
+elif age < 18:
+    price = 25
+elif age < 65:
+    price = 40
+elif age >= 65:
+    price = 20
+
+print(f"Your admission cost is ${price}.")
+
+
+# elif chain not appropriate when checking for multiple conditions i.e. more
+# than one condition could be true (e.g. requesting a two-topping pizza)
+requested_toppings = ['mushrooms', 'extra cheese']
+
+if 'mushrooms' in requested_toppings:
+    print("Adding mushrooms.")
+if 'pepperoni' in requested_toppings:
+    print('Adding pepperoni.')
+if 'extra cheese' in requested_toppings:
+    print('Adding extra cheese.')
+
+print("\nFinished making your pizza!")
 
 
 
